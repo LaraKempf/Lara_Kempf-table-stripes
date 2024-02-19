@@ -1,0 +1,28 @@
+:root {
+    --hauptfarbe: #c0c0c0;
+    --nebenfarbe: #888888;
+    --drittfarbe: #efefef;
+    --anderefarbe: #ffbbbb;
+}
+
+th {
+    background-color: var(--nebenfarbe);
+    color: var(--drittfarbe);
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: var(--hauptfarbe);
+}
+
+table tr:nth-child(even) {
+    background: var(--drittfarbe);
+}
+
+.pink {
+    background: var(--anderefarbe);
+}
